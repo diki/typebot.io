@@ -1,9 +1,9 @@
 import {
   Box,
   Button,
-  Flex,
+  // Flex,
   Heading,
-  SimpleGrid,
+  // SimpleGrid,
   Stack,
   Text,
   VStack,
@@ -11,7 +11,7 @@ import {
 import * as React from 'react'
 import { Header } from '../../common/Header/Header'
 import { BackgroundPolygons } from './BackgroundPolygons'
-import * as Logos from './Brands'
+// import * as Logos from './Brands'
 import Link from 'next/link'
 import Image from 'next/image'
 import builderScreenshotSrc from 'public/images/builder-screenshot.png'
@@ -104,7 +104,7 @@ export const Hero = () => {
           </Box>
         </VStack>
       </Stack>
-      <Flex justify="center" bgGradient="linear(to-b, gray.900, gray.800)">
+      {/* <Flex justify="center" bgGradient="linear(to-b, gray.900, gray.800)">
         <VStack spacing="12" pb="32" maxW="7xl" px={4}>
           <Heading fontSize="25px" fontWeight="semibold" data-aos="fade">
             Loved by teams and creators from all around the world
@@ -127,7 +127,7 @@ export const Hero = () => {
             <Logos.Awwwsome />
           </SimpleGrid>
         </VStack>
-      </Flex>
+      </Flex> */}
     </Box>
   )
 }
